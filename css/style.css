@@ -1,0 +1,116 @@
+html, body{
+	margin: 0;
+	background-color: #330B2F;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	margin: 1% 14% 1% 14%;
+}
+
+.icon{
+	display: inline-block;
+	cursor: pointer;
+}
+.icon img{
+	width: 150px;
+	height: 60px;
+}
+
+.menu{
+	float: right;
+	display: inline-block;
+	padding: 16px 0px 16px 18px;
+}
+
+.menu button{
+	background-color: transparent;
+	color: #fff;
+	vertical-align: middle;
+	border: 0.5px solid #fff;
+	border-radius: 18px;
+	margin-right: 20px;
+	padding: 6px 25px 6px 25px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.menu button:hover{
+	box-shadow: 2px 2px 5px #
+}
+
+nav{
+	background-color: #fff;
+	padding: 0.1px;
+}
+
+ul{
+	list-style-type: none;
+	color: #000;
+	text-align: center;
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:link{
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:active{
+	color: #ffff4c;
+}
+
+a:hover{
+	color: #cccc00;
+}
+
+ul li{
+	display: inline-block;
+}
+
+li img{
+	width: 22px;
+	height: 22px;
+}
+
+div.inline-text{
+	display: inline;
+	vertical-align: 5px;
+	padding-left: 12px;
+	margin-right: 30px;
+}
+
+section{
+	margin: 0 14%;
+}
+
+footer{
+	padding: 30px 0;
+	margin: 0 14%;
+}
+
+.grid-container{
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 250px);
+	grid-gap: 0px;
+}
+
+.inline-div{
+	display: inline-block;
+	width: 120px;
+	padding-left: 20px;
+}
+
+.font-3{
+	color: #ffffff;
+	text-shadow: 1px 1px 5px #bba3d0;
+	letter-spacing: 1px;
+}
