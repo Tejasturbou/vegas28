@@ -123,28 +123,72 @@ footer{
 	width: 90%;
 	color: #fff;
 	text-align: left;
-	background-color: #213131;
 	padding: 5px;
 	border-collapse: collapse;
+	margin: 40px 0 200px;
+	box-shadow: 0px 0px 6px #38eeff;
 }
 
-th{
+.table-1 th{
 	color: #00ffff;
-	padding: 10px 0 10px 15px;
+	padding: 14px 0 14px 15px;
 	background-color: #0a0f13;
+	border-right: 0.1px solid #909090;
 }
 
-tr:nth-child(even){
+.table-1 tr:nth-child(even){
 	background-color: #0f030f;
 }
 
-tr:nth-child(odd){
+.table-1 tr:nth-child(odd){
 	background-color: #1b081c;
 }
 
-td{
-
-	padding: 5px 0 5px 15px;
+.table-1 td{
+	padding: 10px 0 10px 15px;
 	color:#F3FFFF;
 	text-shadow: 1px 1px 5px #0000FF;
+	border-right: 0.1px solid #909090;
+}
+
+
+ol{
+	margin: 0;
+	padding: 0;
+}
+
+.card-list li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 35px;
+	margin-bottom: 35px;
+}
+
+.table-2{
+	box-shadow: 0px 0px 6px #38eeff;
+	padding: 5px 84px 5px 10px;
+}
+
+.table-2 td{
+	color: #00fcff;
+}
+
+.table-font-1{
+	color: #F3FFFF;
+	text-shadow: 2px 2px 25px #0000FF;
+	padding: 5px 8px;
+	box-shadow: 0px 0px 6px #38eeff;
+}
+
+.td-1{
+	padding: 7px;
+}
+
+.td-2{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.td-3{
+	padding-bottom: 8px;
 }
