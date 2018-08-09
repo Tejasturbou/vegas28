@@ -175,7 +175,7 @@ ol{
 
 .table-font-1{
 	color: #F3FFFF;
-	text-shadow: 2px 2px 25px #0000FF;
+	text-shadow: 2px 2px 15px #0000FF;
 	padding: 5px 8px;
 	box-shadow: 0px 0px 6px #38eeff;
 }
@@ -191,4 +191,73 @@ ol{
 
 .td-3{
 	padding-bottom: 8px;
+}
+
+
+.login{
+	color: #fff;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.font-4{
+	color: #fff;
+	text-shadow: 0px 0px 20px #b2497d;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.login img{
+	width: 30px;
+}
+
+.form-1{
+	margin: 15px 0;
+	padding: 30px;
+	box-shadow: 0px 0px 6px #38eeff;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+form{
+	font-size: 15px;
+	color: #F3FFFF;
+    text-shadow: 1px 1px 5px #0000FF;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+	color: #fff;
+	font-size: 20px;
+	background-color: transparent;
+	border-radius: 20px;
+	border: 1px solid #8b1a89;
+	box-shadow: 0px 0px 5px #8b1a89;
+	padding: 6px;
+	width: 200px;
+	margin: 10px 5px;
+}
+
+input[type="submit"] {
+	color: #fff;
+	cursor: pointer;
+	font-weight: 600;
+	border-radius: 20px;
+	width: 130px;
+	padding: 6px 10px;
+	margin: 15px 10px 0 0;
+	background-color: transparent;
+	border: 0.5px solid #f2cf1b;
+	box-shadow: 0px 0px 6px #f2cf1b;
+}
+
+.register{
+	display: inline-block;
+	margin-top: 30px;
+/*	margin-left: 80px;*/
+	vertical-align: top;
+}
+
+.register img{
+	width: 32px;
+	vertical-align: -5px;
 }
